@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8C9884A1C11EAAD0009401E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C988491C11EAAD0009401E /* AppDelegate.swift */; };
+		B8C9884C1C11EAAD0009401E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C9884B1C11EAAD0009401E /* ViewController.swift */; };
+		B8C9884F1C11EAAD0009401E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8C9884D1C11EAAD0009401E /* Main.storyboard */; };
+		B8C988511C11EAAD0009401E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8C988501C11EAAD0009401E /* Assets.xcassets */; };
+		B8C988541C11EAAD0009401E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8C988521C11EAAD0009401E /* LaunchScreen.storyboard */; };
+		B8C988591C11EAAD0009401E /* HeartRate WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B8C988581C11EAAD0009401E /* HeartRate WatchKit App.app */; };
+		B8C9885F1C11EAAD0009401E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8C9885D1C11EAAD0009401E /* Interface.storyboard */; };
+		B8C988611C11EAAD0009401E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8C988601C11EAAD0009401E /* Assets.xcassets */; };
+		B8C988681C11EAAD0009401E /* HeartRate WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B8C988671C11EAAD0009401E /* HeartRate WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B8C9886D1C11EAAD0009401E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C9886C1C11EAAD0009401E /* InterfaceController.swift */; };
+		B8C9886F1C11EAAD0009401E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C9886E1C11EAAD0009401E /* ExtensionDelegate.swift */; };
+		B8C988711C11EAAD0009401E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8C988701C11EAAD0009401E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8C9885A1C11EAAD0009401E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8C9883E1C11EAAD0009401E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8C988571C11EAAD0009401E;
+			remoteInfo = "HeartRate WatchKit App";
+		};
+		B8C988691C11EAAD0009401E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8C9883E1C11EAAD0009401E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8C988661C11EAAD0009401E;
+			remoteInfo = "HeartRate WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B8C988781C11EAAD0009401E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B8C988681C11EAAD0009401E /* HeartRate WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8C9887C1C11EAAD0009401E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B8C988591C11EAAD0009401E /* HeartRate WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B8C988461C11EAAD0009401E /* HeartRate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartRate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8C988491C11EAAD0009401E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8C9884B1C11EAAD0009401E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B8C9884E1C11EAAD0009401E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8C988501C11EAAD0009401E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8C988531C11EAAD0009401E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8C988551C11EAAD0009401E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8C988581C11EAAD0009401E /* HeartRate WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeartRate WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8C9885E1C11EAAD0009401E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B8C988601C11EAAD0009401E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8C988621C11EAAD0009401E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8C988671C11EAAD0009401E /* HeartRate WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HeartRate WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8C9886C1C11EAAD0009401E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B8C9886E1C11EAAD0009401E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		B8C988701C11EAAD0009401E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8C988721C11EAAD0009401E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8C988431C11EAAD0009401E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8C988641C11EAAD0009401E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8C9883D1C11EAAD0009401E = {
+			isa = PBXGroup;
+			children = (
+				B8C988481C11EAAD0009401E /* HeartRate */,
+				B8C9885C1C11EAAD0009401E /* HeartRate WatchKit App */,
+				B8C9886B1C11EAAD0009401E /* HeartRate WatchKit Extension */,
+				B8C988471C11EAAD0009401E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8C988471C11EAAD0009401E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8C988461C11EAAD0009401E /* HeartRate.app */,
+				B8C988581C11EAAD0009401E /* HeartRate WatchKit App.app */,
+				B8C988671C11EAAD0009401E /* HeartRate WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8C988481C11EAAD0009401E /* HeartRate */ = {
+			isa = PBXGroup;
+			children = (
+				B8C988491C11EAAD0009401E /* AppDelegate.swift */,
+				B8C9884B1C11EAAD0009401E /* ViewController.swift */,
+				B8C9884D1C11EAAD0009401E /* Main.storyboard */,
+				B8C988501C11EAAD0009401E /* Assets.xcassets */,
+				B8C988521C11EAAD0009401E /* LaunchScreen.storyboard */,
+				B8C988551C11EAAD0009401E /* Info.plist */,
+			);
+			path = HeartRate;
+			sourceTree = "<group>";
+		};
+		B8C9885C1C11EAAD0009401E /* HeartRate WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B8C9885D1C11EAAD0009401E /* Interface.storyboard */,
+				B8C988601C11EAAD0009401E /* Assets.xcassets */,
+				B8C988621C11EAAD0009401E /* Info.plist */,
+			);
+			path = "HeartRate WatchKit App";
+			sourceTree = "<group>";
+		};
+		B8C9886B1C11EAAD0009401E /* HeartRate WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B8C9886C1C11EAAD0009401E /* InterfaceController.swift */,
+				B8C9886E1C11EAAD0009401E /* ExtensionDelegate.swift */,
+				B8C988701C11EAAD0009401E /* Assets.xcassets */,
+				B8C988721C11EAAD0009401E /* Info.plist */,
+			);
+			path = "HeartRate WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8C988451C11EAAD0009401E /* HeartRate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8C9887D1C11EAAD0009401E /* Build configuration list for PBXNativeTarget "HeartRate" */;
+			buildPhases = (
+				B8C988421C11EAAD0009401E /* Sources */,
+				B8C988431C11EAAD0009401E /* Frameworks */,
+				B8C988441C11EAAD0009401E /* Resources */,
+				B8C9887C1C11EAAD0009401E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8C9885B1C11EAAD0009401E /* PBXTargetDependency */,
+			);
+			name = HeartRate;
+			productName = HeartRate;
+			productReference = B8C988461C11EAAD0009401E /* HeartRate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8C988571C11EAAD0009401E /* HeartRate WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8C988791C11EAAD0009401E /* Build configuration list for PBXNativeTarget "HeartRate WatchKit App" */;
+			buildPhases = (
+				B8C988561C11EAAD0009401E /* Resources */,
+				B8C988781C11EAAD0009401E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8C9886A1C11EAAD0009401E /* PBXTargetDependency */,
+			);
+			name = "HeartRate WatchKit App";
+			productName = "HeartRate WatchKit App";
+			productReference = B8C988581C11EAAD0009401E /* HeartRate WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B8C988661C11EAAD0009401E /* HeartRate WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8C988751C11EAAD0009401E /* Build configuration list for PBXNativeTarget "HeartRate WatchKit Extension" */;
+			buildPhases = (
+				B8C988631C11EAAD0009401E /* Sources */,
+				B8C988641C11EAAD0009401E /* Frameworks */,
+				B8C988651C11EAAD0009401E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HeartRate WatchKit Extension";
+			productName = "HeartRate WatchKit Extension";
+			productReference = B8C988671C11EAAD0009401E /* HeartRate WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8C9883E1C11EAAD0009401E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Arsen Gasparyan";
+				TargetAttributes = {
+					B8C988451C11EAAD0009401E = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					B8C988571C11EAAD0009401E = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					B8C988661C11EAAD0009401E = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = B8C988411C11EAAD0009401E /* Build configuration list for PBXProject "HeartRate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8C9883D1C11EAAD0009401E;
+			productRefGroup = B8C988471C11EAAD0009401E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8C988451C11EAAD0009401E /* HeartRate */,
+				B8C988571C11EAAD0009401E /* HeartRate WatchKit App */,
+				B8C988661C11EAAD0009401E /* HeartRate WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8C988441C11EAAD0009401E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C988541C11EAAD0009401E /* LaunchScreen.storyboard in Resources */,
+				B8C988511C11EAAD0009401E /* Assets.xcassets in Resources */,
+				B8C9884F1C11EAAD0009401E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8C988561C11EAAD0009401E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C988611C11EAAD0009401E /* Assets.xcassets in Resources */,
+				B8C9885F1C11EAAD0009401E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8C988651C11EAAD0009401E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C988711C11EAAD0009401E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8C988421C11EAAD0009401E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C9884C1C11EAAD0009401E /* ViewController.swift in Sources */,
+				B8C9884A1C11EAAD0009401E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8C988631C11EAAD0009401E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C9886F1C11EAAD0009401E /* ExtensionDelegate.swift in Sources */,
+				B8C9886D1C11EAAD0009401E /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8C9885B1C11EAAD0009401E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8C988571C11EAAD0009401E /* HeartRate WatchKit App */;
+			targetProxy = B8C9885A1C11EAAD0009401E /* PBXContainerItemProxy */;
+		};
+		B8C9886A1C11EAAD0009401E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8C988661C11EAAD0009401E /* HeartRate WatchKit Extension */;
+			targetProxy = B8C988691C11EAAD0009401E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8C9884D1C11EAAD0009401E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8C9884E1C11EAAD0009401E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8C988521C11EAAD0009401E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8C988531C11EAAD0009401E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B8C9885D1C11EAAD0009401E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8C9885E1C11EAAD0009401E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8C988731C11EAAD0009401E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8C988741C11EAAD0009401E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8C988761C11EAAD0009401E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HeartRate WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arsengasparyan.HeartRate.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		B8C988771C11EAAD0009401E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HeartRate WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arsengasparyan.HeartRate.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		B8C9887A1C11EAAD0009401E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = HeartRate_WatchKit_Extension;
+				INFOPLIST_FILE = "HeartRate WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arsengasparyan.HeartRate.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		B8C9887B1C11EAAD0009401E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = HeartRate_WatchKit_Extension;
+				INFOPLIST_FILE = "HeartRate WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arsengasparyan.HeartRate.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		B8C9887E1C11EAAD0009401E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeartRate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arsengasparyan.HeartRate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B8C9887F1C11EAAD0009401E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeartRate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arsengasparyan.HeartRate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8C988411C11EAAD0009401E /* Build configuration list for PBXProject "HeartRate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8C988731C11EAAD0009401E /* Debug */,
+				B8C988741C11EAAD0009401E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8C988751C11EAAD0009401E /* Build configuration list for PBXNativeTarget "HeartRate WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8C988761C11EAAD0009401E /* Debug */,
+				B8C988771C11EAAD0009401E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B8C988791C11EAAD0009401E /* Build configuration list for PBXNativeTarget "HeartRate WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8C9887A1C11EAAD0009401E /* Debug */,
+				B8C9887B1C11EAAD0009401E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B8C9887D1C11EAAD0009401E /* Build configuration list for PBXNativeTarget "HeartRate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8C9887E1C11EAAD0009401E /* Debug */,
+				B8C9887F1C11EAAD0009401E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8C9883E1C11EAAD0009401E /* Project object */;
+}
