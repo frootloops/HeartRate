@@ -28,7 +28,7 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>com.arsengasparyan.HeartRate</string>
+	<string>com.arsengasparyan.fitnessapp</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>

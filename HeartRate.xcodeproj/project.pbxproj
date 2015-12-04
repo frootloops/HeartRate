@@ -222,6 +222,7 @@
 				TargetAttributes = {
 					B8C988451C11EAAD0009401E = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = ZNCJHR947M;
 					};
 					B8C988571C11EAAD0009401E = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -429,8 +430,9 @@
 			buildSettings = {
 				INFOPLIST_FILE = "HeartRate WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.arsengasparyan.HeartRate.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arsengasparyan.fitnessapp.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "3b583698-7890-4bab-bc31-120e8c45ca44";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -443,8 +445,9 @@
 			buildSettings = {
 				INFOPLIST_FILE = "HeartRate WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.arsengasparyan.HeartRate.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arsengasparyan.fitnessapp.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "3b583698-7890-4bab-bc31-120e8c45ca44";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -459,8 +462,9 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = HeartRate_WatchKit_Extension;
 				INFOPLIST_FILE = "HeartRate WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.arsengasparyan.HeartRate.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arsengasparyan.fitnessapp.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3e7dedb2-b7c2-448b-9cf1-3300091edd70";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -475,8 +479,9 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = HeartRate_WatchKit_Extension;
 				INFOPLIST_FILE = "HeartRate WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.arsengasparyan.HeartRate.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arsengasparyan.fitnessapp.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3e7dedb2-b7c2-448b-9cf1-3300091edd70";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -488,10 +493,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HeartRate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.arsengasparyan.HeartRate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arsengasparyan.fitnessapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "589be660-eb42-4626-b774-72745bb948ff";
 			};
 			name = Debug;
 		};
@@ -499,10 +506,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HeartRate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.arsengasparyan.HeartRate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arsengasparyan.fitnessapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "589be660-eb42-4626-b774-72745bb948ff";
 			};
 			name = Release;
 		};
@@ -525,6 +534,7 @@
 				B8C988771C11EAAD0009401E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8C988791C11EAAD0009401E /* Build configuration list for PBXNativeTarget "HeartRate WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +543,7 @@
 				B8C9887B1C11EAAD0009401E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8C9887D1C11EAAD0009401E /* Build configuration list for PBXNativeTarget "HeartRate" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +552,7 @@
 				B8C9887F1C11EAAD0009401E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
